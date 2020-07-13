@@ -1,6 +1,7 @@
 <div class="jumbotron text-center">
     <h1>Welcome to my Moodle</h1>
     <p>A responsive Moodle front page insert</p>
+	<br /><a href="#" data-toggle="popover" title="Contact" data-content="email: us@mudel.com">Contact us</a>
 </div>
 
 <div class="container">
@@ -26,3 +27,9 @@
     </div>
     
 </div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
